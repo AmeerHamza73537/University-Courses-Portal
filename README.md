@@ -1,12 +1,12 @@
-# University-Courses-Portal
-A responsive web application developed with **React.js**, serving as a dynamic portal for university and course-related content. The app integrates features for both university departments and course offerings, complete with dynamic data rendering and a user-friendly interface. The application offers sections for departments, courses, faculty, and events, all of which are dynamically displayed for an enhanced user experience.
+# React + Vite
 
-## 🚀 Features
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-- 🏫 University Department & Course Listings
-- 👨‍🏫 Faculty Profiles with dynamic information
-- 📚 Course Catalog with detailed descriptions, prerequisites, and enrollment options
-- 🗓️ Event management and calendar
-- 🌐 Fully responsive design optimized for desktop, tablet, and mobile devices
-- ⚙️ Clean UI with reusable React components
+Currently, two official plugins are available:
 
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
